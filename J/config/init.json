@@ -1,0 +1,37 @@
+{
+	"server":{
+		"host":"localhost",
+		"username":"root",
+		"password":"",
+		"database":"jamal-pro"
+	},
+	"Views":{
+		"Views":"dashboard/projects/project-add/project-details/project-edit/messages/profile/items/error",
+		"File_ext":".php"
+	},
+	"_api":{
+		"search_control":{
+			"requests":"teams/projects/notes",
+			"_key":"yes"
+		},
+		"_key":"yes"
+	},
+	"_file_upload":{
+		"_category":"announcement/notes/public",
+		"_location":"media",
+		"file_types":"jpg/jpeg/pdf/docx/xlsx/xls/pptx/txt/png/bitmap/webp/png",
+		"valid_file_types":{
+			"audio":"wav/mp3/ogg/m4a",
+			"image":"png/jpg/jpeg/bitmap/webp/gif",
+			"video":"mp4/avi/3gp",
+
+			"application":{
+				"vnd.openxmlformats-officedocument.wordprocessingml.document":"document",
+				"vnd.openxmlformats-officedocument.spreadsheetml.sheet":"spreadsheet",
+				"pdf":"document",
+				"vnd.openxmlformats-officedocument.presentationml.presentation":"presentation"
+			}
+		}
+
+	}
+}
